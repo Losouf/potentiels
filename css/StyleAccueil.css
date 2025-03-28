@@ -34,13 +34,13 @@
   .product-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Centre horizontalement */
+    justify-content: center; 
     gap: 30px;
   }
   
   
   .product-card {
-    width: 250px;      
+    width: 250px; 
     background: #fff;
     border-radius: 15px;
     overflow: hidden;
@@ -49,13 +49,14 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    color: inherit;
+    text-decoration: none;
   }
-  
   
   .product-card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.15);
   }
-  
   .product-card img {
     width: 100%;
     height: 180px;
@@ -75,6 +76,7 @@
   .product-info h3 {
     font-size: 20px;
     color: #333;
+    border-bottom: #000 solid 2px;
   }
   
   .product-info p {
