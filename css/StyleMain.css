@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #d2d2d280;
+    min-height: 100vh;
+}   
+
+.gradient-text {
+    font-size: 50px;
+    font-weight: 800;
+    position: relative;
+    z-index: 1;
+
+    background: linear-gradient(
+        270deg,
+        #00c2ff,
+        #33ff8c,
+        #ffc640,
+        #e54cff,
+        #00c2ff
+    );
+    background-size: 1000% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: animate-gradient 10s ease-in-out infinite;
+}
+
+/* Ombre colorée synchronisée */
+.gradient-text::after {
+    content: "Potentiels et Alternatives";
+    position: absolute;
+    left: 0;
+    top: 5px; /* décale vers le bas pour simuler une ombre */
+    z-index: -1;
+    filter: blur(8px);
+    background: inherit;
+    background-size: inherit;
+    background-position: inherit;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 10s ease-in-out infinite;
+}
+
+@keyframes animate-gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
