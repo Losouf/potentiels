@@ -1,0 +1,40 @@
+.site-footer {
+    background: var(--primary);
+    color: #f1f1f1;
+    padding: 30px 20px;
+    font-size: 0.9em;
+  }
+  
+  .footer-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.6;
+  }
+  
+  .footer-brand {
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: var(--accent);
+  }
+  
+  .footer-links {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    color: #f1f1f1;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: var(--accent);
+  }
+  
+  .footer-legal {
+    color: #ccc;
+    font-size: 0.85em;
+  }
