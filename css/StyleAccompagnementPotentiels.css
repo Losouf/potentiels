@@ -70,6 +70,7 @@
     background: var(--accent);
     color: #000;
     padding: 0.6em 1.2em;
+    border: var(--accent) 2px solid;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
@@ -77,6 +78,77 @@
   }
   
   .card-btn:hover {
-    background: #e0a800;
+    background: transparent;
+    color: var(--accent);
   }
+
+  .center-btn {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  
+  
+
+
+
+
+  
+  .certifications-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 60px auto;
+    max-width: 900px;
+  }
+  
+  .certif-item {
+    display: flex;
+    gap: 30px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .certif-image {
+    flex: 0 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .certif-image img {
+    max-width: 100%;
+    max-height: 80px;
+    object-fit: contain;
+  }
+  
+  .certif-content {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .certif-content h3 {
+    color: var(--primary);
+    margin-bottom: 10px;
+    font-size: 1.3em;
+  }
+  
+  .certif-content p {
+    color: #444;
+    font-size: 0.95em;
+  }
+  
+  .certif-content em {
+    color: #666;
+  }
+  
+  .card-btn {
+    margin-top: 15px;
+    display: inline-block;
+  }
+  
   
