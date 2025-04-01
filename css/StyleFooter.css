@@ -38,3 +38,20 @@
     color: #ccc;
     font-size: 0.85em;
   }
+
+  .footer-dev {
+    margin-top: 15px;
+    font-size: 0.8em;
+    color: #aaa;
+  }
+  
+  .footer-dev a {
+    color: #f1f1f1;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-dev a:hover {
+    color: var(--accent);
+  }
+  

@@ -28,6 +28,11 @@
   .intro-text p {
     margin-bottom: 20px;
   }
+
+  .intro-text ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
   
   .card-grid {
     display: grid;
@@ -42,7 +47,7 @@
     border-radius: 10px;
     padding: 25px;
     box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
