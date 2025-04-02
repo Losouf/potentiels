@@ -157,6 +157,18 @@
   }
 
 
+  @media (max-width: 1000px){
+    .certifications-container {
+      flex-direction: column;
+      max-width: 90%;
+    }
+
+    .certif-item{
+      justify-content: center;
+      text-align: center;
+    }
+  }
+
 
   
 
@@ -164,7 +176,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px 0;
 }
   
 video{
@@ -174,7 +185,12 @@ video{
   border-radius: 10px;
 }
  
-
+@media (max-width: 1000px){
+  video{
+    width: 90%;  
+    height: auto;
+  }
+}
 
 
 
