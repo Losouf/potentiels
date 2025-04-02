@@ -12,6 +12,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Arial, sans-serif;
   background: var(--bg);
